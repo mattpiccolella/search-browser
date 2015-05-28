@@ -26,7 +26,7 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Matt's Search App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0c-Xh-8ep">
-                                <rect key="frame" x="176" y="132" width="248" height="38"/>
+                                <rect key="frame" x="176" y="73" width="248" height="38"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="32"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -34,16 +34,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Kpj-bj-DoL" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="5V1-BJ-gGo"/>
-                            <constraint firstAttribute="centerY" secondItem="f0c-Xh-8ep" secondAttribute="centerY" constant="149.5" id="AVb-8t-Tf0"/>
-                            <constraint firstAttribute="centerY" secondItem="Kpj-bj-DoL" secondAttribute="centerY" id="K34-xq-oPP"/>
-                            <constraint firstAttribute="centerX" secondItem="f0c-Xh-8ep" secondAttribute="centerX" id="Kbe-Il-zm3"/>
-                            <constraint firstAttribute="centerX" secondItem="Kpj-bj-DoL" secondAttribute="centerX" id="MUe-Zj-FLM"/>
+                            <constraint firstAttribute="centerY" secondItem="Kpj-bj-DoL" secondAttribute="centerY" id="JwI-t7-9bM"/>
+                            <constraint firstItem="Kpj-bj-DoL" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="Kav-UB-Geh"/>
+                            <constraint firstAttribute="centerY" secondItem="f0c-Xh-8ep" secondAttribute="centerY" constant="208" id="Q0X-Z0-paG"/>
+                            <constraint firstAttribute="centerX" secondItem="f0c-Xh-8ep" secondAttribute="centerX" id="aBe-Ce-zN3"/>
+                            <constraint firstAttribute="centerX" secondItem="Kpj-bj-DoL" secondAttribute="centerX" id="xyL-yF-RYH"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="appLabel" destination="f0c-Xh-8ep" id="X1s-k4-X5f"/>
                         <outlet property="searchBox" destination="Kpj-bj-DoL" id="2pP-pS-Tm0"/>
+                        <outlet property="verticalSearchCenter" destination="JwI-t7-9bM" id="Mso-yc-dB4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
